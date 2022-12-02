@@ -1,7 +1,64 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body, input, button {
     font-size: 14px;
     font-family: arial,sans-serif;
     color: #202124;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+header{
+    height: 60px;
+}
+.navbar{
+    height: 100%;
+    width: 100%;
+    padding: 10px 20px;
+}
+.navbar ul{
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 12px;
+}
+.navbar ul li{
+    margin-left: 12px;
+}
+.navbar ul li a{
+    color: #000;
+}
+.link:hover{
+    text-decoration: underline;
+}
+.menu-header{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.menu-header:hover{
+    background-color: #dfe1e5;
+}
+.acc-ico{
+    height: auto;
+    width: auto;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.acc-ico:hover{
+	box-shadow: 0px 0px 10px 3px lightgrey;
 }
 .k1zIA {
     height: 100%;
@@ -47,21 +104,21 @@ body, input, button {
     padding-left: auto;
     padding-right: auto;
     text-align: center;
-    background-image: url("search.png"),url("voice.ico"),url("cam.svg");
-    background-position: 4px ,310px 9px ,335px ;
+    background-image: url("search.svg"),url("voice.ico"),url("cam.svg");
+    background-position: 5px ,310px 8px ,330px ;
     background-repeat: no-repeat;
-    background-size: 20px,10px,20px ;
+    background-size: 15px,10px,20px ;
 }
 .Searchbar:hover{
     box-shadow: #dfe1e5;
     background: rgb(255, 255, 255) ;
 	color: #000;
-    box-shadow:0 0 1px 1px rgb(220, 220, 220) ;
-	box-shadow: 1px 1px 0 0 rgb(220, 220, 220);
-    background-image: url("search.png"),url("voice.ico"),url("cam.svg");
-    background-position: 4px ,300px 9px ,325px ;
+    box-shadow:0px 0px 5px 1px grey;
+    background-image: url("search.gif"),url("voice.ico"),url("cam.svg");
+    background-position: 5px ,310px 8px ,330px ;
+    cursor: pointer;
     background-repeat: no-repeat;
-    background-size: 20px,10px,20px ;
+    background-size: 15px,10px,20px ;
 	transform : translate(2px,2px,1px,1px);
 }
 input:focus, textarea:focus, select:focus{
@@ -100,7 +157,7 @@ input:focus, textarea:focus, select:focus{
     box-shadow: #dfe1e5;
     background: rgb(240, 240, 240) ;
 	color: #000;
-	box-shadow: 1px 1px 0 0 rgb(198, 198, 198);
+	box-shadow: 0px 0px 5px 0px lightgrey;
 	transform : translate(2px,2px,1px,1px);
 }
 .im_feel_lucky:hover{
@@ -108,7 +165,7 @@ input:focus, textarea:focus, select:focus{
     box-shadow: #dfe1e5;
     background: rgb(240, 240, 240) ;
 	color: #000;
-	box-shadow: 1px 1px 0 0 rgb(198, 198, 198);
+	box-shadow: 0px 0px 5px 0px lightgrey;
 	transform : translate(2px,2px,1px,1px);
 }
 .SIvCob {
