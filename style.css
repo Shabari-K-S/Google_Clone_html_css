@@ -1,0 +1,130 @@
+body, input, button {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+}
+.k1zIA {
+    height: 100%;
+    margin-top: auto;
+}
+.PinNVd {
+    height: 6vh;
+}
+.logo{
+    width: 275px;
+    height: 50%;
+    margin-top: auto;
+    align-items: center;
+}
+.LS8OJ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.AvNkr{
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+.iblpc {
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+}
+.Searchbar{
+    
+    display: flex;
+    width: 70vh;
+    height: 30px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    border-radius: 30px;
+    margin: 0 auto;
+    flex: 1;
+    display: flex;
+    padding: 0px 0px 0 0px;
+    padding-left: auto;
+    padding-right: auto;
+    text-align: center;
+    background-image: url("search.png"),url("voice.ico"),url("cam.svg");
+    background-position: 4px ,310px 9px ,335px ;
+    background-repeat: no-repeat;
+    background-size: 20px,10px,20px ;
+}
+.Searchbar:hover{
+    box-shadow: #dfe1e5;
+    background: rgb(255, 255, 255) ;
+	color: #000;
+    box-shadow:0 0 1px 1px rgb(220, 220, 220) ;
+	box-shadow: 1px 1px 0 0 rgb(220, 220, 220);
+    background-image: url("search.png"),url("voice.ico"),url("cam.svg");
+    background-position: 4px ,300px 9px ,325px ;
+    background-repeat: no-repeat;
+    background-size: 20px,10px,20px ;
+	transform : translate(2px,2px,1px,1px);
+}
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+.google_search{
+    color: rgb(74, 73, 73);
+    background-color :rgb(248, 248, 248);
+    outline: none;
+    border: none;
+    font-size: x-small;
+    padding-left: 12px;
+    padding-top: 7px;
+    padding-right: 12px;
+    padding-bottom: 7px;
+    cursor: pointer;
+    border-radius: 2px;
+    text-align: center;
+}
+.im_feel_lucky{
+    background-color :rgb(248, 248, 248);
+    color: rgb(74, 73, 73);
+    outline: none;
+    border: none;
+    font-size: x-small;
+    padding-left: 12px;
+    padding-top: 7px;
+    padding-right: 12px;
+    padding-bottom: 7px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 2px;
+}
+.google_search:hover{
+    border: 0.5px solid gray;
+    box-shadow: #dfe1e5;
+    background: rgb(240, 240, 240) ;
+	color: #000;
+	box-shadow: 1px 1px 0 0 rgb(198, 198, 198);
+	transform : translate(2px,2px,1px,1px);
+}
+.im_feel_lucky:hover{
+    border: 0.5px solid gray;
+    box-shadow: #dfe1e5;
+    background: rgb(240, 240, 240) ;
+	color: #000;
+	box-shadow: 1px 1px 0 0 rgb(198, 198, 198);
+	transform : translate(2px,2px,1px,1px);
+}
+.SIvCob {
+    color: #4d5156;
+    text-align: center;
+    flex-direction: row;
+    line-height: 40px;
+    font-size: x-small;
+    height: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.SIvCob a{
+    padding: 2px 2px 2px 2px;
+    text-decoration: none;
+}
