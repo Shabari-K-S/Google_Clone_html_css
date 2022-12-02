@@ -1,4 +1,4 @@
-# Google_Clone_html_css
+# Google_Clone
 
 This is an simple Goolge Search Engine Clone...
 
