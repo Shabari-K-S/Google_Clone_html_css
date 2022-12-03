@@ -49,14 +49,7 @@ header{
 .menu-header:hover{
     background-color: #dfe1e5;
 }
-.acc-ico{
-    height: auto;
-    width: auto;
-    border-radius: 50%;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
+
 .acc-ico:hover{
 	box-shadow: 0px 0px 10px 3px lightgrey;
 }
@@ -89,37 +82,43 @@ header{
     padding-right: 13px;
     margin-top: -5px;
 }
-.Searchbar{
-    
-    display: flex;
-    width: 70vh;
-    height: 30px;
-    background: #fff;
-    border: 1px solid #dfe1e5;
-    border-radius: 30px;
-    margin: 0 auto;
-    flex: 1;
-    display: flex;
-    padding: 0px 0px 0 0px;
-    padding-left: auto;
-    padding-right: auto;
-    text-align: center;
-    background-image: url("search.svg"),url("voice.ico"),url("cam.svg");
-    background-position: 5px ,310px 8px ,330px ;
-    background-repeat: no-repeat;
-    background-size: 15px,10px,20px ;
+.searchbar-setting{
+    justify-content: center;
 }
-.Searchbar:hover{
+.searchbar-setting .input_text{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+.input_text{
+    border: 1px solid #dfe1e5;
+    width: 600px;
+    height: 45px;
+    border-radius: 30px;
+    padding-left: 15px;
+}
+.input_text:hover{
     box-shadow: #dfe1e5;
     background: rgb(255, 255, 255) ;
 	color: #000;
     box-shadow:0px 0px 5px 1px grey;
-    background-image: url("search.gif"),url("voice.ico"),url("cam.svg");
-    background-position: 5px ,310px 8px ,330px ;
+}
+.input_text img{
     cursor: pointer;
-    background-repeat: no-repeat;
-    background-size: 15px,10px,20px ;
-	transform : translate(2px,2px,1px,1px);
+    margin-right: 15px;
+}
+.input_text input{
+    flex-grow: 1;
+    height: 30px;
+    margin-right: 15px;
+    font-size: 16px;
+    border: none;
+    text-align: center;
+}
+.Searchbar{
+    
 }
 input:focus, textarea:focus, select:focus{
     outline: none;
@@ -184,4 +183,16 @@ input:focus, textarea:focus, select:focus{
 .SIvCob a{
     padding: 2px 2px 2px 2px;
     text-decoration: none;
+}
+.SIvCob a:hover{
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 650px){
+    .input_text{
+        width: 90%;
+    }
+    .input_text input{
+        width: 50%;
+    };
 }

@@ -5,24 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="./main.js">
+        userInput.addEventListner("keydown", function(event){
+            if(event.code === "Enter"){
+                googleSearch();
+            }
+        });
+
+        function googleSearch(){
+            var search = document.getElementById("user_input").value;
+            window.location.herf = "http://www.google.com.pk/search?q="+search;
+            return true;
+        }
+    </script>
     <title>Document</title>
 </head>
 <body>
     <header>
         <nav class="navbar">
             <ul>
-                <li>
-                    <a class="link" href="https://mail.google.com/mail/&ogbl">Gmail</a>
-                </li>
-                <li>
-                    <a class="link" href="https://www.google.co.in/imghp?hl=en&ogbl">Images</a>
-                </li>
-                <li>
-                    <a class="menu-header" href="https://about.google/products/#all-products"><img src="bars-solid.svg" alt="bar" style="height:17px"></a>
-                </li>
-                <li>
-                    <a class="acc-ico" herf="https://accounts.google.com/SignOutOptions?hl=en&continue=https://www.google.com/"><img src="unnamed.jpg" alt="bar" style="border-radius: 50%;"></a>
-                </li>
+                <li><a class="link" href="https://mail.google.com/mail/&ogbl">Gmail</a></li>
+                <li><a class="link" href="https://www.google.co.in/imghp?hl=en&ogbl">Images</a></li>
+                <li><a class="menu-header" href="https://about.google/products/#all-products"><img src="bars-solid.svg" alt="bar" style="height:17px"></a></li>
             </ul>
         </nav>
     </header>
@@ -43,15 +47,22 @@
         </div>
     </div>
     <div class="searchbar_btn">
+        <div class="searchbar-setting">
         <div class="PinNVd"></div>
+        <center>
         <div class="input_text">
-            <input class="Searchbar">
+            <img src="search.svg" style="height:15px" onclick="googlesearch()">
+            <input id="user_input" class="Searchbar" type="text">
+            <img src="voice.ico" style="height:20px">
+            <img src="cam.svg" style="height: 20px;">
+        </div>
+        </center>
         </div>
         <div class="PinNVd"></div>
         <div class="button_items">
             <center>
                 <button class="google_search">Google Search</button>
-                <button class="im_feel_lucky">I'm Feel Lucky</button>
+                <button class="im_feel_lucky" onclick="location.href='https://www.google.com/doodles'">I'm Feel Lucky</button>
             </center>
         </div>
     </div>
