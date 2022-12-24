@@ -9,6 +9,9 @@ In this we can:
   * And we can access Google Images..
   
 
+Preview Link : https://shabari-k-s.github.io/googlesearchpagehtml/
+  
+
 The Language used in code fully html and css
 
 It can't search anything using the search bar. But some animation hover effect were add...
